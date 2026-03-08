@@ -1,0 +1,37 @@
+{
+  "name": "evolut-coin",
+  "version": "1.0.0",
+  "description": "EVOLUT Coin (EVL) — BEP20 utility token on Binance Smart Chain",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "coverage": "hardhat coverage",
+    "deploy": "hardhat run scripts/deploy.js",
+    "deploy:bsc": "hardhat run scripts/deploy.js --network bsc",
+    "deploy:testnet": "hardhat run scripts/deploy.js --network bscTestnet",
+    "clean": "hardhat clean",
+    "verify": "hardhat verify --network bsc"
+  },
+  "keywords": [
+    "solidity",
+    "bep20",
+    "erc20",
+    "bsc",
+    "binance-smart-chain",
+    "token",
+    "evolut",
+    "evl",
+    "blockchain",
+    "smart-contract"
+  ],
+  "author": "EVOLUT Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.27.0",
+    "dotenv": "^16.4.5"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.4.0"
+  }
+}
