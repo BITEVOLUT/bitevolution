@@ -8,6 +8,17 @@
 [![BSC](https://img.shields.io/badge/Network-BSC-yellow.svg)](https://www.bnbchain.org/)
 [![OpenZeppelin](https://img.shields.io/badge/OpenZeppelin-5.x-blue.svg)](https://docs.openzeppelin.com/)
 
+---
+
+### 📋 Key Documents
+
+| | Document | Description |
+|---|---|---|
+| 🛡️ | [**Security Audit by QuillAudits**](https://github.com/Quillhash/QuillAudit_smart_contract_audit_Reports/blob/master/Evolut%20Smart%20Contract%20Audit%20Report%20-%20QuillAudits.pdf) | Independent smart contract security audit conducted by [QuillAudits](https://www.quillaudits.com/) — a leading blockchain security firm |
+| 📄 | [**EVL Token Whitepaper**](https://github.com/BITEVOLUT/bitevolution/blob/main/EVL_Token_Whitepaper.pdf) | Comprehensive whitepaper covering tokenomics, vision, and technical architecture |
+
+---
+
 ## Table of Contents
 
 - [Overview](#overview)
@@ -41,7 +52,7 @@ Our mission is to create a sustainable and community-driven digital asset that s
 - **Transparency**: All token operations, transfers, and balances are fully verifiable on the Binance Smart Chain, ensuring complete openness and accountability for every participant in the ecosystem
 - **Fixed Supply**: The total supply of 100,000,000 EVL tokens is permanently capped and immutably set at the moment of contract deployment, providing a deflationary-friendly economic model that protects holders from inflationary dilution
 - **Immutability**: Once deployed, the smart contract cannot be modified, upgraded, or tampered with by any party — including the original deployer — guaranteeing that the rules governing the token remain constant and predictable forever
-- **Security**: Built on OpenZeppelin's battle-tested, industry-standard smart contract library, ensuring the highest level of code security and reliability recognized in the blockchain development community
+- **Security**: Built on OpenZeppelin's battle-tested, industry-standard smart contract library and independently audited by [QuillAudits](https://github.com/Quillhash/QuillAudit_smart_contract_audit_Reports/blob/master/Evolut%20Smart%20Contract%20Audit%20Report%20-%20QuillAudits.pdf), ensuring the highest level of code security and reliability recognized in the blockchain development community
 - **Decentralization**: No admin keys, no owner privileges, no pause mechanisms — the contract operates autonomously on the blockchain without any centralized control or single point of failure
 
 ## Token Specifications
@@ -56,6 +67,7 @@ Our mission is to create a sustainable and community-driven digital asset that s
 | **Network** | Binance Smart Chain (BSC) |
 | **Compiler** | Solidity 0.8.20 |
 | **Library** | OpenZeppelin Contracts 5.x |
+| **Security Audit** | [QuillAudits](https://github.com/Quillhash/QuillAudit_smart_contract_audit_Reports/blob/master/Evolut%20Smart%20Contract%20Audit%20Report%20-%20QuillAudits.pdf) |
 | **Mintable** | No — fixed supply, no additional tokens can ever be created |
 | **Burnable** | No — tokens cannot be burned or permanently removed from circulation |
 | **Pausable** | No — the contract cannot be paused or frozen by any party |
@@ -232,7 +244,11 @@ After the constructor executes, no further privileged operations are possible.
 
 ### Smart Contract Security
 
-The EVOLUT Coin contract has been designed with security as the top priority. The following measures have been implemented to ensure the safety and integrity of the token:
+The EVOLUT Coin smart contract has been designed with security as the top priority. The contract has been **independently audited by [QuillAudits](https://www.quillaudits.com/)**, a recognized leader in blockchain security. The full audit report is publicly available [here](https://github.com/Quillhash/QuillAudit_smart_contract_audit_Reports/blob/master/Evolut%20Smart%20Contract%20Audit%20Report%20-%20QuillAudits.pdf).
+
+The following measures have been implemented to ensure the safety and integrity of the token:
+
+- **Independent Security Audit**: The smart contract has been audited by [QuillAudits](https://www.quillaudits.com/), an industry-leading Web3 security firm with a track record of auditing hundreds of blockchain projects. The audit report is publicly available for full transparency.
 
 - **OpenZeppelin Foundation**: The contract is built entirely on OpenZeppelin's ERC20 implementation, which has undergone extensive professional security audits, formal verification, and has been battle-tested across thousands of production deployments managing billions of dollars in value.
 
@@ -277,6 +293,8 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 ## Resources
 
 ### Documentation
+- [EVL Token Whitepaper](https://github.com/BITEVOLUT/bitevolution/blob/main/EVL_Token_Whitepaper.pdf)
+- [QuillAudits Security Audit Report](https://github.com/Quillhash/QuillAudit_smart_contract_audit_Reports/blob/master/Evolut%20Smart%20Contract%20Audit%20Report%20-%20QuillAudits.pdf)
 - [Solidity Documentation](https://docs.soliditylang.org/)
 - [OpenZeppelin Contracts](https://docs.openzeppelin.com/contracts/)
 - [Binance Smart Chain Documentation](https://docs.bnbchain.org/)
