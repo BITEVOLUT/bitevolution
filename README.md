@@ -315,6 +315,5 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 ---
 
-**Built with ❤️ by the EVOLUT Team**
 
 *Empowering the future of digital finance through transparent and secure blockchain technology*
